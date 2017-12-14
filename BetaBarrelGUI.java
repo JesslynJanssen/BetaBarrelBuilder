@@ -19,11 +19,12 @@ import java.io.IOException;
 public class BetaBarrelGUI extends PApplet {
 
 /*
- This program demonstrates the the GSketchPad control. This control enables
- drawings to be displayed on panels.
- 
+
  for Processing V2 and V3
- (c) 2015 Peter Lager
+ (c) 2017 Jesslyn Janssen
+ 
+ 
+ Work in progress
  
  */
 
