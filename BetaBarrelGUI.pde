@@ -81,10 +81,6 @@ void setup() {
   
   cp5 = new ControlP5(this);
 
-
-    // create another slider with tick marks, now without
-  // default value, the initial value will be set according to
-  // the value of variable sliderTicks2 then.
   cp5.addSlider("Strand_Number")
      .setPosition(550,240)
      .setSize(20,100)
