@@ -86,8 +86,7 @@ float tilt_ang = 0;
 public void setup() {
  
  //   output = createWriter("pdb.txt");    //create a file to export PDB data to
-  // Now create and clear graphic to be used (JAVA parameter
-  // parameter is only needed for Processing 1.5.1)
+ 
  pg = createGraphics(500,500, OPENGL);
   // Create the G4P control to position and display the graphic
  spad = new GSketchPad(this, 0, 0, 500,500);
@@ -103,10 +102,6 @@ public void setup() {
   
   cp5 = new ControlP5(this);
 
-
-    // create another slider with tick marks, now without
-  // default value, the initial value will be set according to
-  // the value of variable sliderTicks2 then.
   cp5.addSlider("Strand_Number")
      .setPosition(550,240)
      .setSize(20,100)
